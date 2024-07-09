@@ -65,7 +65,7 @@ main{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding:70px 150px;
+    padding:70px 250px;
     
 }
 
@@ -117,7 +117,7 @@ main{
 .why-content {
     display: flex;
     flex-direction: column;
-    gap: 32px;
+    gap: 24px;
 }
 
 .why-content a {
@@ -126,4 +126,18 @@ main{
     border: 1px solid black;
     padding: 8px;
     margin-right: auto;
+}
+
+iframe{
+    padding: 32px;
+    border-radius: 16px;
+    border: 1px solid rgba(13, 19, 33, 10%);
+}
+.inspiration{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 90px 0;
+    gap: 30px;
 }
