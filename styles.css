@@ -240,13 +240,14 @@ iframe {
 
 .need-support-div input[type="text"] {
     padding: 15px;
-    width: 300px;
+    width: 600px;
     border-radius: 10px;
 }
 
 .need-support-div input[type="submit"] {
     padding: 15px;
-    border-radius: 10px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
 }
 
 .footer{
