@@ -12,6 +12,7 @@ body {
     font-size: 24px;
 }
 
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -57,4 +58,72 @@ header a{
     border-radius: 5px;
     padding: 12px;
     margin: 20px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:70px 150px;
+    
+}
+
+.centered-text {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.centered-text h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.centered-text p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+#why {
+    margin: 80px 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    padding: 80px 97px;
+    background-color: rgba(13, 19, 33, 0.02);
+    border-radius: 5px;
+}
+
+.why-card {
+    display: flex;
+    align-items: center;
+    gap: 96px;
+    justify-content: space-between;
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0) , rgba(255, 255, 255, 1));
+    width: 100%;
+    padding: auto;
+    border-radius: 10px;
+}
+
+#second {
+    flex-direction: row-reverse;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0) , rgba(255, 255, 255, 1));
+}
+
+.why-content {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.why-content a {
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 8px;
+    margin-right: auto;
 }
