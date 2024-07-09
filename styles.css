@@ -248,3 +248,26 @@ iframe {
     padding: 15px;
     border-radius: 10px;
 }
+
+.footer{
+    width: 100%;
+    margin-top: 60px;
+}
+.ftr-element{
+    width: 85%;
+    display: flex;
+    gap: 2em;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto auto;
+    padding: 0 2em;
+}
+
+.contact-icons{
+    display: flex;
+    gap: 2em;
+}
+
+.contact-icons > img{
+    cursor: pointer;
+}
