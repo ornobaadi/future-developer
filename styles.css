@@ -8,7 +8,7 @@ body {
     font-family: "azeret mono";
 }
 
-.name{
+.name {
     font-size: 24px;
 }
 
@@ -20,7 +20,7 @@ nav {
     /* font-size: 28px; */
 }
 
-header a{
+header a {
     text-decoration: none;
     border: 1px solid black;
     padding: 8px;
@@ -28,7 +28,7 @@ header a{
     color: black;
 }
 
-#hero-container{
+#hero-container {
     background-image: url('assets/Hero-bg.png');
     display: flex;
     height: 652px;
@@ -60,13 +60,13 @@ header a{
     margin: 20px;
 }
 
-main{
+main {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding:70px 250px;
-    
+    padding: 70px 250px;
+
 }
 
 .centered-text {
@@ -103,7 +103,7 @@ main{
     align-items: center;
     gap: 96px;
     justify-content: space-between;
-    background-image: linear-gradient(to left, rgba(255, 255, 255, 0) , rgba(255, 255, 255, 1));
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
     width: 100%;
     padding: auto;
     border-radius: 10px;
@@ -111,7 +111,7 @@ main{
 
 #second {
     flex-direction: row-reverse;
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0) , rgba(255, 255, 255, 1));
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
 }
 
 .why-content {
@@ -128,12 +128,13 @@ main{
     margin-right: auto;
 }
 
-iframe{
+iframe {
     padding: 32px;
     border-radius: 16px;
     border: 1px solid rgba(13, 19, 33, 10%);
 }
-.inspiration{
+
+.inspiration {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -142,52 +143,60 @@ iframe{
     gap: 30px;
 }
 
-.my-current-target{
+.my-current-target {
     width: 1140px;
     height: 506px;
     margin: 130px auto;
 }
-.my-current-target-heading{
+
+.my-current-target-heading {
     margin: 0 144px 48px 144px;
     text-align: center;
 
 }
-.my-current-target-items{
+
+.my-current-target-items {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.my-current-target-item{
+
+.my-current-target-item {
     width: 364px;
     height: 360px;
     border-radius: 16px;
     padding: 40px;
 }
-.my-current-target-item-title{
+
+.my-current-target-item-title {
     font-size: 24px;
     font-weight: 800;
     margin: 24px 0 8px 0;
 }
-.my-current-target-item-btn{
+
+.my-current-target-item-btn {
     font-size: 16px;
     font-weight: 700;
     background-color: transparent;
     margin-top: 24px;
     border: none;
-    border-bottom:2px solid #0D1321 ;
+    border-bottom: 2px solid #0D1321;
     cursor: pointer;
 }
-.current-target-item-1{
+
+.current-target-item-1 {
     background-color: #ff4b1e15;
 }
-.current-target-item-2{
+
+.current-target-item-2 {
     background-color: #004de815;
 }
-.current-target-item-3{
+
+.current-target-item-3 {
     background-color: #ffdd0015;
 }
 
-.text-format-1{
+.text-format-1 {
     font-weight: 800;
     margin-bottom: 20px;
 }
@@ -203,34 +212,39 @@ iframe{
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode: overlay;
-  }
-  .need-support-div {
+}
+
+.need-support-div {
     margin: 64px 48px;
-  }
-  .need-support-div h2 {
+}
+
+.need-support-div h2 {
     color: rgb(255, 255, 255);
     font-size: 32px;
     font-weight: 700;
     text-align: center;
     margin-bottom: 20px;
-  }
-  .need-support-div p {
+}
+
+.need-support-div p {
     color: rgb(255, 255, 255);
     font-size: 16px;
     font-weight: 400;
     text-align: center;
     margin-bottom: 20px;
-  }
-  .need-support-div div {
+}
+
+.need-support-div div {
     text-align: center;
-  }
-  .need-support-div input[type="text"] {
+}
+
+.need-support-div input[type="text"] {
     padding: 15px;
     width: 300px;
     border-radius: 10px;
-  }
-  .need-support-div input[type="submit"] {
+}
+
+.need-support-div input[type="submit"] {
     padding: 15px;
     border-radius: 10px;
-  }
-  
+}
