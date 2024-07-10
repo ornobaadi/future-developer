@@ -216,7 +216,7 @@ iframe {
     align-items: center;
     border-radius: 16px;
     background: rgba(0, 0, 0, 0.5);
-    background-image: url(../assets/handshake.jpg);
+    background-image: url(./assets/handshake.jpg);
     background-repeat: no repeat;
     background-size: cover;
     background-position: center;
