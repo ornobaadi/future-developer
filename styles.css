@@ -201,53 +201,87 @@ iframe {
     margin-bottom: 20px;
 }
 
-.need-support-section {
-    width: 1140px;
-    height: 313px;
-    /* border: 2px solid rgb(0, 0, 0); */
-    margin: 0 auto;
-    background-image: url(./assets/handshake.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
+.support-container{
+    margin: 41px 50px 79px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    background: rgba(0, 0, 0, 0.5);
+    background-image: url(../assets/handshake.jpg);
+    background-repeat: no repeat;
     background-size: cover;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-position: center;
     background-blend-mode: overlay;
+    padding: 40px; /* Added padding to increase overall size */
+    width: 80%;
 }
-
-.need-support-div {
+.support-box{
     margin: 64px 48px;
 }
-
-.need-support-div h2 {
+.support-title-description{
+    margin: 0px 157px 24px 157px;
+    
+}
+.support-title-description>h3{
     color: rgb(255, 255, 255);
     font-size: 32px;
-    font-weight: 700;
+    font-weight: 800;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 16px;
 }
-
-.need-support-div p {
+.support-title-description>p{
     color: rgb(255, 255, 255);
     font-size: 16px;
+
     font-weight: 400;
     text-align: center;
-    margin-bottom: 20px;
+    opacity: 0.7;
 }
 
-.need-support-div div {
+.input-submit-box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#feedback{
+    margin-left: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 19px 20px 19px 20px;
+    color: rgba(13, 19, 33, 0.4);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    width: 80%;
+    margin-right: 16px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+}
+#submit{
+    font-family: 'azeret mono';
+    margin-right: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 17px 20px 17px 20px;
+    width: 15%;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
     text-align: center;
 }
 
-.need-support-div input[type="text"] {
-    padding: 15px;
-    width: 600px;
-    border-radius: 10px;
-}
-
-.need-support-div input[type="submit"] {
-    padding: 15px;
-    border-radius: 8px;
-    background: rgb(255, 255, 255);
+#submit:hover {
+    cursor: pointer;
 }
 
 .footer{
