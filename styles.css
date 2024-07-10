@@ -65,7 +65,7 @@ main {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 70px 250px;
+    padding: 0px 250px;
 
 }
 
@@ -76,7 +76,7 @@ main {
 }
 
 .centered-text h2 {
-    font-size: 24px;
+    font-size: 30px;
     font-weight: bold;
     margin-bottom: 20px;
 }
@@ -141,14 +141,14 @@ iframe {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 90px 0;
-    gap: 30px;
+    margin: 50px 0;
+    gap: 20px;
 }
 
 .my-current-target {
     width: 1140px;
     height: 506px;
-    margin: 130px auto;
+    margin: 50px auto;
 }
 
 .my-current-target-heading {
@@ -165,7 +165,7 @@ iframe {
 
 .my-current-target-item {
     width: 364px;
-    height: 360px;
+    height: 300px;
     border-radius: 16px;
     padding: 40px;
 }
@@ -204,7 +204,7 @@ iframe {
 }
 
 .support-container{
-    margin: 41px 50px 79px 50px;
+    margin: 0px 50px 50px 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -216,7 +216,6 @@ iframe {
     background-size: cover;
     background-position: center;
     background-blend-mode: overlay;
-    padding: 40px; /* Added padding to increase overall size */
     width: 80%;
 }
 .support-box{
@@ -258,7 +257,7 @@ iframe {
     font-size: 16px;
     font-weight: 400;
     text-align: left;
-    width: 80%;
+    width: 100%;
     margin-right: 16px;
     box-sizing: border-box;
     border: 1px solid rgba(13, 19, 33, 0.15);
